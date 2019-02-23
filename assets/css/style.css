@@ -180,6 +180,7 @@ h3, h2 {
 
 #contact-form ul {
   margin-bottom: 20px;
+  list-style-type: none; /*this got rid of those pesky bullets*/
 }
 
 #contact-form li {
@@ -228,6 +229,7 @@ header {
   position: static;
   top: 0;
 }
+
 #logo {
   width: 100%;
   margin: 0;
@@ -235,15 +237,25 @@ header {
 
 nav {
   width: 100%;
+  text-align: center;
+  padding: 15px;
+  margin-top: 0px;
+}
+
+#main-container {
+  margin-top: 60px;
 }
 
 .main-section {
   width: 100%;
   max-width: 600px;
-  padding: 30px;
-  margin: 0 20px 40px 20px;
+  padding: 10px 30px;
+  margin: 0px 20px 100px 20px;
 }
 
+#contact-form ul {
+  padding-inline-start: 0px;
+}
 }
 
 /*field centered, two columns for photos*/
