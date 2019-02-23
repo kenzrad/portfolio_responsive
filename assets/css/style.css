@@ -24,6 +24,7 @@ h2,
 h3,
 p {
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 p:last-child {
@@ -271,6 +272,71 @@ nav {
 
 /*field centered, two columns for photos*/
 @media screen and (max-width: 768px) {
+body {
+  margin: 0;
+}
+
+/*768 nav*/
+header {
+  position: static;
+  top: 0;
+  margin: 0;
+}
+
+#logo {
+  margin-left: 15px;
+}
+
+nav {
+  padding-right: 15px;
+}
+
+/* 748 pages */
+
+#main-container {
+  width: 100%;
+  max-width: 680px;
+}
+
+.main-section {
+  width: 680px;
+  padding: 10px 30px;
+  margin: 0px 15px 100px 15px;
+}
+  
+#contact-form ul {
+  padding-inline-start: 0px;
+}
+.work {
+  width: 320px;
+  margin: 20px 0 25px;
+}
+
+/* .work:nth-child(even) {
+  margin-right: 40px;
+} */
+  
+/* images are bigga*/
+.auth-image {
+  width: 50%;
+}
+}
 
   /*field off-centered, small margin on left*/
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 980px) {
+body {
+  margin: 0;
+}
+
+/* 980 pages */
+
+
+.main-section {
+  width: 100%;
+  max-width: 960x;
+}
+    
+#contact-form ul {
+  padding-inline-start: 0px;
+}
+}
