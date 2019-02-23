@@ -220,9 +220,34 @@ input[type=submit] {
 
 /*Header is static*/
 @media screen and (max-width: 640px) {
-  header {
+body {
+  margin: 0;
 }
 
+header {
+  position: static;
+  top: 0;
+}
+#logo {
+  width: 100%;
+  margin: 0;
+}
+
+nav {
+  width: 100%;
+}
+
+.main-section {
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+  margin: 0 20px 40px 20px;
+}
+
+}
+
+/*field centered, two columns for photos*/
 @media screen and (max-width: 768px) {
 
+  /*field off-centered, small margin on left*/
 @media screen and (max-width: 640px) {
