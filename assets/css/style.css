@@ -225,6 +225,7 @@ body {
   margin: 0;
 }
 
+/*640 nav*/
 header {
   position: static;
   top: 0;
@@ -242,6 +243,7 @@ nav {
   margin-top: 0px;
 }
 
+/*640 pages*/
 #main-container {
   margin-top: 60px;
 }
@@ -255,6 +257,15 @@ nav {
 
 #contact-form ul {
   padding-inline-start: 0px;
+}
+
+/*images needs to take up most of the width when 640*/
+.auth-image {
+  width: 100%;
+}
+
+.work {
+  width: 100%;
 }
 }
 
